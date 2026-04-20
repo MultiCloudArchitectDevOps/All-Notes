@@ -10,13 +10,15 @@ docker pull <image>
 
 docker images
 
+docker run -it <imagename>    #run interactive mode
+
+ps aux #to check running process inside docker
+
 docker ps #to check running container 
 
 docker ps -a #both running and exited
 
-docker ps -a | grep Exited  # exited 
-
-docker run -it <imagename>    #run interactive mode 
+docker ps -a | grep Exited  # exited  
 
 exit  #kill existing process and exited from container 
 
