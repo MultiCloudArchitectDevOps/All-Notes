@@ -1,0 +1,27 @@
+yum install docker -y
+
+systemctl start docker
+
+docker version #client and server status
+
+docker --version #docker version 
+
+docker pull <image>
+
+docker ps #to check running container 
+
+docker ps -a #both running and exited
+
+docker ps -a | grep Exited  # exited 
+
+
+docker run -it <imagename>    #run interactive mode 
+
+
+exit  #kill existing process and exited from container 
+
+
+ctrl pq  # exit without kill running process 
+
+
+docker exec -it <containerID>  /bin/bash
