@@ -8,6 +8,8 @@ docker --version #docker version
 
 docker pull <image>
 
+docker images
+
 docker ps #to check running container 
 
 docker ps -a #both running and exited
