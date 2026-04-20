@@ -27,3 +27,5 @@ ctrl pq  # exit without kill running process
 
 
 docker exec -it <containerID>  /bin/bash
+
+docker run -dt #only create container but not login
