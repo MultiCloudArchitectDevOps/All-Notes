@@ -6,7 +6,7 @@ docker version #client and server status
 
 docker --version #docker version 
 
-docker pull <image>
+docker pull <image> 
 
 docker images
 
