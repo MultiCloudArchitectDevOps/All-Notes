@@ -16,12 +16,9 @@ docker ps -a #both running and exited
 
 docker ps -a | grep Exited  # exited 
 
-
 docker run -it <imagename>    #run interactive mode 
 
-
 exit  #kill existing process and exited from container 
-
 
 ctrl pq  # exit without kill running process 
 
