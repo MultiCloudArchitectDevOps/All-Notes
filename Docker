@@ -13,13 +13,15 @@ docker images                 #This command lists all the Docker images stored l
 docker run -it <imagename>    #This command creates and starts a container interactively from a Docker image. In simple terms:
                               #It runs a container and lets you directly interact with it via terminal.
 
-ps aux #to check running process inside docker
+ps aux                        #This command shows all running processes on your Linux system. 
+                              #It gives a detailed snapshot of everything currently running — system services, apps, background tasks, etc.
 
-docker ps #to check running container 
+docker ps                     #This command lists all currently running containers on your system.
 
-docker ps -a #both running and exited
+docker ps -a                  #This command lists all containers on your system — including:Running containers, Stopped (exited) containers, Created but not started containers
+                              #It’s the complete history of containers on your machine.
 
-docker ps -a | grep Exited  # exited  
+docker ps -a | grep Exited    #This command shows only the containers that have stopped (Exited state).  
 
 exit  #kill existing process and exited from container 
 
