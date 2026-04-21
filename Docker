@@ -1,16 +1,17 @@
-yum install docker -y
+yum install docker -y         #It installs Docker on your system
 
-systemctl start docker
+systemctl start docker        #This command is used to start the Docker service on a Linux system.
 
-docker version #client and server status
+docker version                #This command shows the version details of Docker and the status of both: Client & Server 
 
-docker --version #docker version 
+docker --version              #This command shows the installed version of Docker (client only).
 
-docker pull <image> 
+docker pull <image>           #This command is used to download a Docker image from a container registry (usually Docker Hub) to your local machine.
 
-docker images
+docker images                 #This command lists all the Docker images stored locally on your system.
 
-docker run -it <imagename>    #run interactive mode
+docker run -it <imagename>    #This command creates and starts a container interactively from a Docker image. In simple terms:
+                              #It runs a container and lets you directly interact with it via terminal.
 
 ps aux #to check running process inside docker
 
