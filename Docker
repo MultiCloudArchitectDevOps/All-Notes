@@ -23,11 +23,14 @@ docker ps -a                  #This command lists all containers on your system 
 
 docker ps -a | grep Exited    #This command shows only the containers that have stopped (Exited state).  
 
-exit  #kill existing process and exited from container 
+exit                          #The exit command is used to close the current shell session. 
 
-ctrl pq  # exit without kill running process 
+ctrl pq                       #This key combination is used to detach from a running Docker container without stopping it.
 
-docker exec -it <containerID>  /bin/bash #login to docker
+docker exec -it <containerID> <<command>> 
+
+docker exec -it <containerID> /bin/bash #This command opens an interactive Bash shell inside a running container. 
+                                        #You can execute commands inside the container as if you’re logged into it.
 
 docker run -dt #only create container but not login
 
