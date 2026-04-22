@@ -40,7 +40,8 @@ docker inspect <imagename>                    #This command returns detailed low
                                               #It’s like a deep dive into metadata of objects managed by Docker
 
 ***********************************************************************************************************************************************************************
-****************************************************Docker file creation and app deployment (python app deployment using ubuntu)****************************************
+
+****************************************************Docker file creation and python app deployment*********************************************************************
 
 Step 1. vi Dockerfile #add docker file related data
 Step 2: vi app.py #add code
@@ -48,4 +49,13 @@ Step 3: vi requirements.txt #add the reuqirments
 Step 4: docker build -t img1 . #is used in Docker to create a Docker image from a Dockerfile.
 Step 5: docker run -dt img1 #Creates and starts a new container from an image without login. if you want to login to container add docker run -it img1
 Step 6: docker run -dt -p 5000:5000 img1 #runs a container using Docker and exposes a port so you can access the app from your machine.
+**********************************************************************************************************************************************************************
 
+*************************************************Docker file creation and Node.js app deployment**********************************************************************
+
+Step 1. vi Dockerfile #add docker file related data
+Step 2: vi app.py #add code
+Step 3: vi requirements.txt #add the reuqirments
+Step 4: docker build -t img1 . #is used in Docker to create a Docker image from a Dockerfile.
+Step 5: docker run -dt img1 #Creates and starts a new container from an image without login. if you want to login to container add docker run -it img1
+Step 6: docker run -dt -p 5000:5000 img1 #runs a container using Docker and exposes a port so you can access the app from your machine.
