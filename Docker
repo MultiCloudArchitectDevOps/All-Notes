@@ -42,7 +42,7 @@ docker inspect <imagename>                    #This command returns detailed low
 ***********************************************************************************************************************************************************************
 ****************************************************Docker file creation and app deployment (python app deployment using ubuntu)****************************************
 
-Step 1. vi Dcokerfile #add docker file related data
+Step 1. vi Dockerfile #add docker file related data
 Step 2: vi app.py #add code
 Step 3: vi requirements.txt #add the reuqirments
 Step 4: docker build -t img1 . #is used in Docker to create a Docker image from a Dockerfile.
