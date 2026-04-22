@@ -39,8 +39,6 @@ docker run -dt <<imagename>>                  #This command runs a container in 
 docker inspect <imagename>                    #This command returns detailed low-level information (in JSON format) about a Docker image (or container).
                                               #It’s like a deep dive into metadata of objects managed by Docker
 
-docker build -t img1 .
-
 ***********************************************************************************************************************************************************************
 ****************************************************Docker file creation and app deployment (python app deployment using ubuntu)****************************************
 
