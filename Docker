@@ -54,8 +54,8 @@ Step 6: docker run -dt -p 5000:5000 img1 #runs a container using Docker and expo
 *************************************************Docker file creation and Node.js app deployment**********************************************************************
 
 Step 1. vi Dockerfile #add docker file related data
-Step 2: vi app.py #add code
-Step 3: vi requirements.txt #add the reuqirments
-Step 4: docker build -t img1 . #is used in Docker to create a Docker image from a Dockerfile.
-Step 5: docker run -dt img1 #Creates and starts a new container from an image without login. if you want to login to container add docker run -it img1
-Step 6: docker run -dt -p 5000:5000 img1 #runs a container using Docker and exposes a port so you can access the app from your machine.
+Step 2: vi app.js #add code
+Step 3: vi package.json #add the reuqirments
+Step 4: docker build -t node-app . #is used in Docker to create a Docker image from a Dockerfile.
+Step 5: docker run -dt node-app #Creates and starts a new container from an image without login. if you want to login to container add docker run -it img1
+Step 6: docker run -dt -p 5000:5000 node-app #runs a container using Docker and exposes a port so you can access the app from your machine.
