@@ -40,7 +40,11 @@ docker inspect <imagename>                    #This command returns detailed low
                                               #It’s like a deep dive into metadata of objects managed by Docker
 docker logs <<containerid>>                   #it will shows the logs
 
-docker rm <<container id>>                    #it will remove the container
+docker rm <<container id>>                    #This removes the container with ID
+
+docker rm <<container id>> -f                 #forcefully remove a container (even if it is running)
+
+docker system prune                           #This command cleans up unused Docker resources to free disk space.
 
 ***********************************************************************************************************************************************************************
 
