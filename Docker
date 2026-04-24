@@ -40,6 +40,8 @@ docker inspect <imagename>                    #This command returns detailed low
                                               #It’s like a deep dive into metadata of objects managed by Docker
 docker logs <<containerid>>                   #it will shows the logs
 
+docker rm <<container id>>                    #it will remove the container
+
 ***********************************************************************************************************************************************************************
 
 ****************************************************Docker file creation and python app deployment*********************************************************************
