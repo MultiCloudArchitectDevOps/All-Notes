@@ -48,6 +48,8 @@ docker system prune                           #This command cleans up unused Doc
 
 docker rm -f $(docker ps -aq)                  # To delete all running containers 
 
+docker history <<image name>>                  #this will show the complete history about the image.
+
 ******************************************docker push to Docker private repository**************************************************************  
 docker login first
 
