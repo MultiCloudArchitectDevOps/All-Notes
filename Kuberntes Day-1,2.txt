@@ -1,3 +1,7 @@
+
+
+https://medium.com/@veerababu.narni232/kubernetes-master-components-etcd-api-server-controller-manager-and-scheduler-84b12adfa1b5
+
 ----------------------------------- Kubernetes---------------------------------------------
 
 Kubernetes is a container orchestration system that was initially designed by Google to help scale
