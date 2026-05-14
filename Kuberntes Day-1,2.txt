@@ -4,6 +4,8 @@ https://medium.com/@veerababu.narni232/kubernetes-master-components-etcd-api-ser
 
 https://medium.com/@veerababu.narni232/a-complete-overview-of-argocd-with-a-practical-example-f4a9a8488cf9
 
+https://medium.com/@veerababu.narni232/deployment-of-prometheus-and-grafana-using-helm-in-eks-cluster-22caee18a872
+
 ----------------------------------- Kubernetes---------------------------------------------
 
 Kubernetes is a container orchestration system that was initially designed by Google to help scale
